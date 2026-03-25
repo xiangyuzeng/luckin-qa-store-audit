@@ -1,0 +1,2 @@
+﻿store_name,store_serial,check_date,checklist_number,module_id,module_cn,matched_clause,label,check_items,issue_description,deduction_type,severity,deduction_value,checker,match_method,estimated_responsibility
+Wall Street,US00004,2026-03-02,CK-2026-1019,5,清洁卫生,5.1.2,Equipment and Food Processing Utensils,Cleaning schedule is posted and si,Food items stored directly on floor in dry storage room,Key,S,-5,Zhang Wei,text_match,门店

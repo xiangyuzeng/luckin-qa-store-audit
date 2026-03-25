@@ -1,0 +1,13 @@
+﻿module_id,module_name_cn,module_name_en,issue_count,total_deduction,s_count,m_count,g_count,l_count,affected_store_count,affected_store_pct,is_systemic,has_critical,top_labels
+5,清洁卫生,Sanitation and Hygiene,26,-55.0,1,4,9,12,9,90.0,True,True,"Trash Cans, Procedures for Cleaning and Disinfection, Food Processing Area"
+6,产品与有效期管理,Product Procedures & Expiry Date Management,18,-28.0,0,1,6,11,10,100.0,True,False,"Operating Specifications, Food, Expiration Date"
+1,证照文件记录,Document Record,15,-25.0,0,1,6,8,9,90.0,True,False,"Licenses and certificates, License Documents, Government inspection"
+2,员工健康与个人卫生,Employees' Health & Personal Hygiene,15,-23.0,0,1,4,10,7,70.0,True,False,"Handwashing Standards, Personal certificate, Disposable Gloves and Blue Bandages"
+10,饮用水与管道系统,"Potable Water, Pipes & Water Systems",13,-23.0,0,1,6,6,7,70.0,True,False,"Potable Water Supply is Adequate, Water Filtration Device, Grease traps&Residue traps&Sewer lines"
+8,化学品管理,Chemicals,12,-14.0,0,0,2,10,6,60.0,True,False,Chemical Mark/Storage
+12,门店稽核管理,Store Audit Management Procedures,7,-12.0,0,1,1,5,6,60.0,True,False,Requirements
+3,供应商管理,Approved Supplier,5,-12.0,0,1,3,1,4,40.0,False,False,Approved Goods
+4,交叉污染防控,Prevention of Cross-contamination,7,-9.0,0,0,2,5,6,60.0,True,False,"Avoidance of Falling Foreign Objects, Storage/Maintenance of Utensils, Cross Contamination"
+7,设备设施维护,Maintenance of Equipment and Facilities,4,-7.0,0,0,3,1,4,40.0,False,False,"Equipment Inspection and Maintenance, Facility Inspection and Maintenance, Lights"
+9,虫害防控,Pests Control,4,-6.0,0,0,2,2,3,30.0,False,False,"Insect Pest Control Facilities & Suppliers, No pests enter"
+11,工作场所安全,Workplace Safety,2,-2.0,0,0,0,2,2,20.0,False,False,Workplace Safety

@@ -1,0 +1,482 @@
+{
+  "schema_version": "3.0",
+  "metadata": {
+    "analysis_month": "2026-03",
+    "analysis_month_cn": "2026年03月",
+    "analysis_date": "2026-03-25",
+    "prior_month": "2026-02",
+    "has_prior_month": true,
+    "total_inspections": 9,
+    "total_stores": 9,
+    "report_id": "LCNA-QA-2026-003",
+    "author": "曾翔宇"
+  },
+  "store_validation": {
+    "stores_in_data": [
+      {
+        "store_name": "Times Square",
+        "store_serial": "US00001",
+        "dept_code": "LKUS00000001"
+      },
+      {
+        "store_name": "Herald Square",
+        "store_serial": "US00002",
+        "dept_code": "LKUS00000002"
+      },
+      {
+        "store_name": "Bryant Park",
+        "store_serial": "US00003",
+        "dept_code": "LKUS00000003"
+      },
+      {
+        "store_name": "Wall Street",
+        "store_serial": "US00004",
+        "dept_code": "LKUS00000004"
+      },
+      {
+        "store_name": "Midtown East",
+        "store_serial": "US00005",
+        "dept_code": "LKUS00000005"
+      },
+      {
+        "store_name": "28th & 6th",
+        "store_serial": "US00006",
+        "dept_code": "LKUS00000006"
+      },
+      {
+        "store_name": "Penn Station",
+        "store_serial": "US00007",
+        "dept_code": "LKUS00000007"
+      },
+      {
+        "store_name": "JFK Terminal 1",
+        "store_serial": "US00008",
+        "dept_code": "LKUS00000054"
+      },
+      {
+        "store_name": "Columbus Circle",
+        "store_serial": "US00009",
+        "dept_code": "LKUS00000009"
+      },
+      {
+        "store_name": "Union Square",
+        "store_serial": "US00010",
+        "dept_code": "LKUS00000010"
+      }
+    ],
+    "note": "Store names sourced directly from empapp export, not generated"
+  },
+  "layer1_store_performance": {
+    "avg_score": 84.1,
+    "prior_month_avg": 91.3,
+    "avg_change": -7.2,
+    "max_store": {
+      "name": "Herald Square",
+      "score": 97.0
+    },
+    "min_store": {
+      "name": "Bryant Park",
+      "score": 72.0
+    },
+    "most_improved": {
+      "name": "Herald Square",
+      "serial": "US00002",
+      "change": 6.0,
+      "current_score": 97.0,
+      "prior_score": 91.0
+    },
+    "most_declined": {
+      "name": "Bryant Park",
+      "serial": "US00003",
+      "change": -18.0,
+      "current_score": 72.0,
+      "prior_score": 90.0
+    },
+    "store_scores": [
+      {
+        "store_name": "Herald Square",
+        "serial": "US00002",
+        "score": 97.0,
+        "prior_score": 91.0,
+        "change": 6.0
+      },
+      {
+        "store_name": "Penn Station",
+        "serial": "US00007",
+        "score": 94.0,
+        "prior_score": 95.0,
+        "change": -1.0
+      },
+      {
+        "store_name": "Columbus Circle",
+        "serial": "US00009",
+        "score": 92.0,
+        "prior_score": 92.0,
+        "change": 0.0
+      },
+      {
+        "store_name": "Union Square",
+        "serial": "US00010",
+        "score": 89.0,
+        "prior_score": 97.0,
+        "change": -8.0
+      },
+      {
+        "store_name": "JFK Terminal 1",
+        "serial": "US00008",
+        "score": 87.0,
+        "prior_score": 94.0,
+        "change": -7.0
+      },
+      {
+        "store_name": "28th & 6th",
+        "serial": "US00006",
+        "score": 78.0,
+        "prior_score": 90.0,
+        "change": -12.0
+      },
+      {
+        "store_name": "Wall Street",
+        "serial": "US00004",
+        "score": 74.0,
+        "prior_score": 83.0,
+        "change": -9.0
+      },
+      {
+        "store_name": "Midtown East",
+        "serial": "US00005",
+        "score": 74.0,
+        "prior_score": 88.0,
+        "change": -14.0
+      },
+      {
+        "store_name": "Bryant Park",
+        "serial": "US00003",
+        "score": 72.0,
+        "prior_score": 90.0,
+        "change": -18.0
+      }
+    ]
+  },
+  "layer2_module_analysis": {
+    "total_issues": 128,
+    "modules": [
+      {
+        "module_id": 5,
+        "name_cn": "清洁卫生",
+        "name_en": "Sanitation and Hygiene",
+        "issue_count": 26,
+        "total_deductions": -55.0,
+        "s_count": 1,
+        "m_count": 4,
+        "g_count": 9,
+        "l_count": 12,
+        "affected_stores": 9,
+        "is_systemic": true,
+        "has_critical": true
+      },
+      {
+        "module_id": 6,
+        "name_cn": "产品与有效期管理",
+        "name_en": "Product Procedures & Expiry Date Management",
+        "issue_count": 18,
+        "total_deductions": -28.0,
+        "s_count": 0,
+        "m_count": 1,
+        "g_count": 6,
+        "l_count": 11,
+        "affected_stores": 10,
+        "is_systemic": true,
+        "has_critical": false
+      },
+      {
+        "module_id": 1,
+        "name_cn": "证照文件记录",
+        "name_en": "Document Record",
+        "issue_count": 15,
+        "total_deductions": -25.0,
+        "s_count": 0,
+        "m_count": 1,
+        "g_count": 6,
+        "l_count": 8,
+        "affected_stores": 9,
+        "is_systemic": true,
+        "has_critical": false
+      },
+      {
+        "module_id": 2,
+        "name_cn": "员工健康与个人卫生",
+        "name_en": "Employees' Health & Personal Hygiene",
+        "issue_count": 15,
+        "total_deductions": -23.0,
+        "s_count": 0,
+        "m_count": 1,
+        "g_count": 4,
+        "l_count": 10,
+        "affected_stores": 7,
+        "is_systemic": true,
+        "has_critical": false
+      },
+      {
+        "module_id": 10,
+        "name_cn": "饮用水与管道系统",
+        "name_en": "Potable Water, Pipes & Water Systems",
+        "issue_count": 13,
+        "total_deductions": -23.0,
+        "s_count": 0,
+        "m_count": 1,
+        "g_count": 6,
+        "l_count": 6,
+        "affected_stores": 7,
+        "is_systemic": true,
+        "has_critical": false
+      },
+      {
+        "module_id": 8,
+        "name_cn": "化学品管理",
+        "name_en": "Chemicals",
+        "issue_count": 12,
+        "total_deductions": -14.0,
+        "s_count": 0,
+        "m_count": 0,
+        "g_count": 2,
+        "l_count": 10,
+        "affected_stores": 6,
+        "is_systemic": true,
+        "has_critical": false
+      },
+      {
+        "module_id": 12,
+        "name_cn": "门店稽核管理",
+        "name_en": "Store Audit Management Procedures",
+        "issue_count": 7,
+        "total_deductions": -12.0,
+        "s_count": 0,
+        "m_count": 1,
+        "g_count": 1,
+        "l_count": 5,
+        "affected_stores": 6,
+        "is_systemic": true,
+        "has_critical": false
+      },
+      {
+        "module_id": 3,
+        "name_cn": "供应商管理",
+        "name_en": "Approved Supplier",
+        "issue_count": 5,
+        "total_deductions": -12.0,
+        "s_count": 0,
+        "m_count": 1,
+        "g_count": 3,
+        "l_count": 1,
+        "affected_stores": 4,
+        "is_systemic": false,
+        "has_critical": false
+      },
+      {
+        "module_id": 4,
+        "name_cn": "交叉污染防控",
+        "name_en": "Prevention of Cross-contamination",
+        "issue_count": 7,
+        "total_deductions": -9.0,
+        "s_count": 0,
+        "m_count": 0,
+        "g_count": 2,
+        "l_count": 5,
+        "affected_stores": 6,
+        "is_systemic": true,
+        "has_critical": false
+      },
+      {
+        "module_id": 7,
+        "name_cn": "设备设施维护",
+        "name_en": "Maintenance of Equipment and Facilities",
+        "issue_count": 4,
+        "total_deductions": -7.0,
+        "s_count": 0,
+        "m_count": 0,
+        "g_count": 3,
+        "l_count": 1,
+        "affected_stores": 4,
+        "is_systemic": false,
+        "has_critical": false
+      },
+      {
+        "module_id": 9,
+        "name_cn": "虫害防控",
+        "name_en": "Pests Control",
+        "issue_count": 4,
+        "total_deductions": -6.0,
+        "s_count": 0,
+        "m_count": 0,
+        "g_count": 2,
+        "l_count": 2,
+        "affected_stores": 3,
+        "is_systemic": false,
+        "has_critical": false
+      },
+      {
+        "module_id": 11,
+        "name_cn": "工作场所安全",
+        "name_en": "Workplace Safety",
+        "issue_count": 2,
+        "total_deductions": -2.0,
+        "s_count": 0,
+        "m_count": 0,
+        "g_count": 0,
+        "l_count": 2,
+        "affected_stores": 2,
+        "is_systemic": false,
+        "has_critical": false
+      }
+    ],
+    "module_ranking": [
+      "清洁卫生",
+      "产品与有效期管理",
+      "证照文件记录"
+    ],
+    "critical_modules": [
+      "清洁卫生"
+    ],
+    "systemic_modules": [
+      "清洁卫生",
+      "产品与有效期管理",
+      "证照文件记录",
+      "员工健康与个人卫生",
+      "饮用水与管道系统",
+      "化学品管理",
+      "门店稽核管理",
+      "交叉污染防控"
+    ],
+    "store_module_connection": {
+      "lowest_store_modules": [],
+      "highest_store_zero_deduction_modules": [],
+      "most_improved_modules": []
+    }
+  },
+  "layer3_risk_analysis": {
+    "total_issues": 128,
+    "severity_distribution": {
+      "S": 1,
+      "M": 10,
+      "G": 44,
+      "L": 73
+    },
+    "severity_percentages": {
+      "S": 0.8,
+      "M": 7.8,
+      "G": 34.4,
+      "L": 57.0
+    },
+    "s_items_count": 1,
+    "s_items_detail": [
+      {
+        "store_name": "Wall Street",
+        "module_id": 5,
+        "module_cn": "清洁卫生",
+        "matched_clause": "5.1.2",
+        "check_items": "Cleaning schedule is posted and si",
+        "description": "Food items stored directly on floor in dry storage room",
+        "deduction": -5.0,
+        "date": "2026-03-02"
+      }
+    ],
+    "m_top_modules": {
+      "清洁卫生": 4,
+      "供应商管理": 1,
+      "产品与有效期管理": 1,
+      "员工健康与个人卫生": 1,
+      "证照文件记录": 1
+    },
+    "g_top_modules": {
+      "清洁卫生": 9,
+      "证照文件记录": 6,
+      "产品与有效期管理": 6,
+      "饮用水与管道系统": 6,
+      "员工健康与个人卫生": 4
+    },
+    "l_top_modules": {
+      "清洁卫生": 12,
+      "产品与有效期管理": 11,
+      "员工健康与个人卫生": 10,
+      "化学品管理": 10,
+      "证照文件记录": 8
+    }
+  },
+  "layer4_capa": {
+    "keyword_attribution": {
+      "summary": {
+        "门店": 64,
+        "机修": 53,
+        "营建": 11
+      },
+      "disclaimer": "基于关键词的初步归因（仅供参考）— 实际归因需以整改工单系统数据为准"
+    },
+    "missing_fields": [
+      "责任归属（门店/机修/营建）",
+      "整改责任人",
+      "整改措施描述",
+      "整改完成时间",
+      "验证结果（通过/未通过）",
+      "验证人",
+      "SLA达标状态"
+    ],
+    "sla_standards": {
+      "S": {
+        "days": 2,
+        "label": "S项（关键项）",
+        "deadline": "2天"
+      },
+      "M": {
+        "days": 7,
+        "label": "M项（重要项）",
+        "deadline": "7天"
+      },
+      "G": {
+        "days": 14,
+        "label": "G项（一般项）",
+        "deadline": "14天"
+      },
+      "L": {
+        "days": 14,
+        "label": "L项（轻微项）",
+        "deadline": "14天"
+      }
+    }
+  },
+  "trend_summary": {
+    "months_covered": [
+      "2026-02",
+      "2026-03"
+    ],
+    "average_score_trend": {
+      "2026-02": 89.9,
+      "2026-03": 83.8
+    },
+    "inspections_per_month": {
+      "2026-02": 14,
+      "2026-03": 15
+    }
+  },
+  "data_quality": {
+    "unmapped_labels": [],
+    "mapping_conflicts": [],
+    "anomalous_scores": [
+      {
+        "store_name": "Times Square",
+        "score": -192.0,
+        "date": "2026-03-20"
+      }
+    ],
+    "empty_descriptions_pct": "2.3%",
+    "severity_mismatches": 17
+  },
+  "mapping_quality": {
+    "checklist_used": true,
+    "text_match_count": 171,
+    "label_fallback_count": 1,
+    "unmapped_count": 0,
+    "avg_match_score": 0.937,
+    "severity_mismatches": 17
+  }
+}
