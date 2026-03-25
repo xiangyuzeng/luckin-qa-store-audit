@@ -194,11 +194,15 @@ def main():
     logger.info("Running Layer 1: Store Performance...")
     l1 = build_store_performance(current_df, df, analysis_month, prior_month, month_output)
 
+    # Use only latest inspection rows for module and risk analysis (consistent with FILE 1)
+    latest_df = l1.get('latest_rows', current_df)
+    latest_stores = l1.get('total_stores', total_stores)
+
     logger.info("Running Layer 2: Module Analysis...")
-    l2 = build_module_analysis(current_df, total_stores, month_output)
+    l2 = build_module_analysis(latest_df, latest_stores, month_output)
 
     logger.info("Running Layer 3: Risk Detail...")
-    l3 = build_risk_detail(current_df, month_output)
+    l3 = build_risk_detail(latest_df, month_output)
 
     logger.info("Running Layer 4: Trend Data...")
     l4 = build_trend_data(df, month_output)
