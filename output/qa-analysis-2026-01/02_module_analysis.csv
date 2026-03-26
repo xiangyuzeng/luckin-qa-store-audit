@@ -1,0 +1,13 @@
+﻿module_id,module_name_cn,module_name_en,issue_count,total_deduction,s_count,m_count,g_count,l_count,affected_store_count,affected_store_pct,is_systemic,has_critical,top_labels
+4,交叉污染防控,Prevention of Cross-contamination,8,-20.0,0,2,4,2,5,55.6,True,False,"Cross Contamination, Storage/Maintenance of Utensils, Material Storage Location Specification"
+10,饮用水与管道系统,"Potable Water, Pipes & Water Systems",5,-12.0,1,0,3,1,5,55.6,True,True,"Grease traps&Residue traps&Sewer lines, Water Filtration Device, Potable Water Supply is Adequate"
+5,清洁卫生,Sanitation and Hygiene,6,-11.0,1,0,1,4,4,44.4,False,True,"Trash Cans, Operation Stand, Shelf, Cabinet and Water Sink, Equipment and Food Processing Utensils"
+6,产品与有效期管理,Product Procedures & Expiry Date Management,6,-11.0,0,0,5,1,4,44.4,False,False,"Operating Specifications, Food, Product Storage Conditions"
+12,门店稽核管理,Store Audit Management Procedures,6,-11.0,1,0,1,4,5,55.6,True,True,Requirements
+1,证照文件记录,Document Record,5,-11.0,0,1,2,2,5,55.6,True,False,"License Documents, Licenses and certificates, Government inspection"
+8,化学品管理,Chemicals,5,-11.0,1,0,2,2,5,55.6,True,True,Chemical Mark/Storage
+9,虫害防控,Pests Control,5,-8.0,0,0,3,2,5,55.6,True,False,"No Sign of Insect Pests, Insect Pest Control Facilities & Suppliers"
+2,员工健康与个人卫生,Employees' Health & Personal Hygiene,5,-6.0,0,0,1,4,4,44.4,False,False,"Personal certificate, Employees' Health, Personal Hygiene"
+11,工作场所安全,Workplace Safety,2,-6.0,0,1,0,1,1,11.1,False,False,Workplace Safety
+7,设备设施维护,Maintenance of Equipment and Facilities,2,-4.0,0,0,2,0,2,22.2,False,False,"Lights, Equipment Inspection and Maintenance"
+3,供应商管理,Approved Supplier,3,-3.0,0,0,0,3,3,33.3,False,False,Approved Goods

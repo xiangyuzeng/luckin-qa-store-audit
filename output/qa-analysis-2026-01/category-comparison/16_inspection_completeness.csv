@@ -1,0 +1,28 @@
+﻿store_name,month,has_self_check,has_qa_audit,has_area_check,categories_count,gap_note
+Times Square,2026-01,True,True,False,2,Missing area check
+Herald Square,2026-01,True,True,False,2,Missing area check
+Bryant Park,2026-01,True,True,True,3,Complete
+Wall Street,2026-01,True,True,False,2,Missing area check
+Midtown East,2026-01,True,True,True,3,Complete
+28th & 6th,2026-01,True,False,True,2,Missing QA audit
+JFK Terminal 1,2026-01,True,True,False,2,Missing area check
+Columbus Circle,2026-01,True,False,True,2,Missing QA audit
+Union Square,2026-01,True,True,False,2,Missing area check
+Times Square,2026-02,False,False,False,0,"Missing self-check, QA audit, area check"
+Herald Square,2026-02,False,True,False,1,"Missing self-check, area check"
+Bryant Park,2026-02,False,True,False,1,"Missing self-check, area check"
+Wall Street,2026-02,False,True,False,1,"Missing self-check, area check"
+Midtown East,2026-02,False,False,False,0,"Missing self-check, QA audit, area check"
+28th & 6th,2026-02,False,True,False,1,"Missing self-check, area check"
+JFK Terminal 1,2026-02,False,True,False,1,"Missing self-check, area check"
+Columbus Circle,2026-02,False,False,False,0,"Missing self-check, QA audit, area check"
+Union Square,2026-02,False,False,False,0,"Missing self-check, QA audit, area check"
+Times Square,2026-03,True,False,False,1,"Missing QA audit, area check"
+Herald Square,2026-03,True,False,False,1,"Missing QA audit, area check"
+Bryant Park,2026-03,True,False,False,1,"Missing QA audit, area check"
+Wall Street,2026-03,True,False,False,1,"Missing QA audit, area check"
+Midtown East,2026-03,True,False,False,1,"Missing QA audit, area check"
+28th & 6th,2026-03,True,False,False,1,"Missing QA audit, area check"
+JFK Terminal 1,2026-03,True,False,False,1,"Missing QA audit, area check"
+Columbus Circle,2026-03,True,False,False,1,"Missing QA audit, area check"
+Union Square,2026-03,True,False,False,1,"Missing QA audit, area check"

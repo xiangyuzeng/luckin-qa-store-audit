@@ -1,0 +1,8 @@
+﻿checker_name,checker_position,category,total_inspections,stores_inspected,avg_score_given,avg_issues_per_inspection,avg_deduction_per_inspection,s_found,m_found,g_found,l_found,months_active,last_inspection_date
+Sarah Kim,Store Manager,Store food safety self-check,3,3,90.7,9.7,-13.0,0,0,10,19,"2026-01, 2026-03",2026-03-21
+David Park,Store Manager,Store food safety self-check,5,5,89.8,9.6,-15.8,1,2,19,26,"2026-01, 2026-03",2026-03-17
+Maria Chen,Store Manager,Store food safety self-check,4,3,87.0,8.2,-13.2,2,0,12,19,"2026-01, 2026-03",2026-03-22
+Daniel Chu,Operation Manager,Area food safety Check,4,4,82.8,7.8,-13.5,1,2,11,17,2026-01,2026-01-19
+Lisa Wang,Assistant Store Manager,Store food safety self-check,5,4,92.6,7.6,-11.2,0,0,18,20,"2026-01, 2026-03",2026-03-16
+Yu Jiang,Senior QA Manager,Store food safety audit,12,8,80.6,7.5,-15.2,4,11,32,43,"2026-01, 2026-02",2026-02-24
+James Lee,Assistant Store Manager,Store food safety self-check,1,1,84.0,7.0,-11.0,0,0,4,3,2026-03,2026-03-14

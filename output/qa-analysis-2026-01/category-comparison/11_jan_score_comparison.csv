@@ -1,0 +1,10 @@
+﻿store_name,store_serial,self_check_score,self_check_date,self_check_checker,qa_audit_score,qa_audit_date,qa_audit_checker,area_check_score,area_check_date,area_check_checker,gap_self_vs_qa,gap_self_vs_area,gap_qa_vs_area
+Times Square,US00001,88.0,2026-01-05,Sarah Kim,85.0,2026-01-16,Yu Jiang,,,,3.0,,
+Herald Square,US00002,95.0,2026-01-11,Sarah Kim,81.0,2026-01-16,Yu Jiang,,,,14.0,,
+Bryant Park,US00003,86.0,2026-01-07,Lisa Wang,78.0,2026-01-16,Yu Jiang,87.0,2026-01-11,Daniel Chu,8.0,-1.0,-9.0
+Wall Street,US00004,86.0,2026-01-11,David Park,81.0,2026-01-18,Yu Jiang,,,,5.0,,
+Midtown East,US00005,87.0,2026-01-08,Maria Chen,77.0,2026-01-20,Yu Jiang,77.0,2026-01-12,Daniel Chu,10.0,10.0,0.0
+28th & 6th,US00006,90.0,2026-01-10,Maria Chen,,,,85.0,2026-01-19,Daniel Chu,,5.0,
+JFK Terminal 1,US00008,94.0,2026-01-06,Lisa Wang,73.0,2026-01-20,Yu Jiang,,,,21.0,,
+Columbus Circle,US00009,95.0,2026-01-06,Lisa Wang,,,,82.0,2026-01-17,Daniel Chu,,13.0,
+Union Square,US00010,97.0,2026-01-14,David Park,74.0,2026-01-24,Yu Jiang,,,,23.0,,

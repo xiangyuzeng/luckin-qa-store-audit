@@ -1,0 +1,86 @@
+{
+  "schema_version": "3.0",
+  "metadata": {
+    "analysis_month": "2026-01",
+    "analysis_date": "2026-03-26",
+    "total_stores": 9,
+    "report_id": "LCNA-QA-2026-001",
+    "author": "曾翔宇"
+  },
+  "layer1_store_performance": {
+    "avg_score": 79.6,
+    "store_scores": [
+      {
+        "store_name": "Times Square",
+        "store_serial_number": "US00001",
+        "report_score": 85.0
+      },
+      {
+        "store_name": "28th & 6th",
+        "store_serial_number": "US00006",
+        "report_score": 85.0
+      },
+      {
+        "store_name": "Columbus Circle",
+        "store_serial_number": "US00009",
+        "report_score": 82.0
+      },
+      {
+        "store_name": "Herald Square",
+        "store_serial_number": "US00002",
+        "report_score": 81.0
+      },
+      {
+        "store_name": "Wall Street",
+        "store_serial_number": "US00004",
+        "report_score": 81.0
+      },
+      {
+        "store_name": "Bryant Park",
+        "store_serial_number": "US00003",
+        "report_score": 78.0
+      },
+      {
+        "store_name": "Midtown East",
+        "store_serial_number": "US00005",
+        "report_score": 77.0
+      },
+      {
+        "store_name": "Union Square",
+        "store_serial_number": "US00010",
+        "report_score": 74.0
+      },
+      {
+        "store_name": "JFK Terminal 1",
+        "store_serial_number": "US00008",
+        "report_score": 73.0
+      }
+    ]
+  },
+  "layer2_module_analysis": {
+    "total_issues": 58,
+    "top_modules": [
+      {
+        "module_id": 4,
+        "module_name_cn": "交叉污染防控",
+        "issue_count": 8,
+        "total_deduction": -20.0
+      },
+      {
+        "module_id": 10,
+        "module_name_cn": "饮用水与管道系统",
+        "issue_count": 5,
+        "total_deduction": -12.0
+      },
+      {
+        "module_id": 5,
+        "module_name_cn": "清洁卫生",
+        "issue_count": 6,
+        "total_deduction": -11.0
+      }
+    ]
+  },
+  "layer3_risk_analysis": {
+    "s_items_count": 4
+  }
+}

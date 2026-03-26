@@ -1,0 +1,104 @@
+{
+  "analysis_month": "2026-01",
+  "analysis_date": "2026-03-26",
+  "categories_present": [
+    "self_check",
+    "qa_audit",
+    "area_check"
+  ],
+  "category_stats": {
+    "self_check": {
+      "inspections": 9,
+      "stores": 9,
+      "avg_score": 90.9,
+      "avg_issues": 8.2,
+      "checkers": [
+        "Sarah Kim",
+        "Lisa Wang",
+        "David Park",
+        "Maria Chen"
+      ]
+    },
+    "qa_audit": {
+      "inspections": 7,
+      "stores": 7,
+      "avg_score": 78.4,
+      "avg_issues": 6.6,
+      "checkers": [
+        "Yu Jiang"
+      ]
+    },
+    "area_check": {
+      "inspections": 4,
+      "stores": 4,
+      "avg_score": 82.8,
+      "avg_issues": 7.8,
+      "checkers": [
+        "Daniel Chu"
+      ]
+    }
+  },
+  "score_comparison": {
+    "avg_self_check_score": 90.9,
+    "avg_qa_audit_score": 78.4,
+    "avg_area_check_score": 82.8,
+    "self_check_vs_qa_gap": 12.5,
+    "interpretation": "Self-check scores are on average 12.5 points higher than QA audit — suggests leniency in self-assessment"
+  },
+  "blind_spots": {
+    "modules_only_qa_catches": [],
+    "modules_only_area_catches": []
+  },
+  "coverage_history": {
+    "self_check": {
+      "last_month": "2026-03",
+      "months_active": [
+        "2026-01",
+        "2026-03"
+      ],
+      "total_inspections": 18,
+      "gap_months": 0
+    },
+    "qa_audit": {
+      "last_month": "2026-02",
+      "months_active": [
+        "2026-01",
+        "2026-02"
+      ],
+      "total_inspections": 12,
+      "gap_months": 1
+    },
+    "area_check": {
+      "last_month": "2026-01",
+      "months_active": [
+        "2026-01"
+      ],
+      "total_inspections": 4,
+      "gap_months": 2
+    }
+  },
+  "coverage_gaps": {
+    "stores_never_qa_audited": [
+      "Columbus Circle"
+    ],
+    "stores_never_area_checked": [
+      "Herald Square",
+      "JFK Terminal 1",
+      "Times Square",
+      "Union Square",
+      "Wall Street"
+    ]
+  },
+  "key_findings_cn": [
+    "门店自检评分偏高（平均90.9分 vs QA审计78.4分，差距12.5分），存在自检宽松倾向，建议加强自检标准培训。",
+    "区经检查已中断2个月，最后一次为2026-01。建议尽快恢复区经巡检覆盖。",
+    "以下门店从未接受QA审计：Columbus Circle。建议优先安排审计。",
+    "以下门店从未接受区经检查：Herald Square、JFK Terminal 1、Times Square、Union Square、Wall Street。"
+  ],
+  "recommendations_cn": [
+    "建议每月至少完成1次门店自检、1次QA审计（覆盖全部门店）、1次区经检查（覆盖50%以上门店）。",
+    "针对自检评分偏高的情况，建议引入自检结果与QA审计结果的交叉验证机制。",
+    "立即恢复区经巡检，优先覆盖近3个月未被区经检查的门店。",
+    "优先对Columbus Circle等门店安排QA审计。"
+  ]
+}

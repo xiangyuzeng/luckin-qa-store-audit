@@ -1,0 +1,10 @@
+﻿store_name,store_serial_number,department_code,city,area,check_date,report_score,check_category,store_level,total_issues,total_deduction,s_count,m_count,g_count,l_count,o_count,prior_month_score,score_change,anomaly
+Times Square,US00001,LKUS00000001,New York City,Area 1,2026-01-16,85.0,Store food safety audit,Pickup,8,-14.0,0,1,2,5,5,,,False
+28th & 6th,US00006,LKUS00000006,New York City,Area 2,2026-01-19,85.0,Area food safety Check,Relax,4,-6.0,0,0,2,2,3,,,False
+Columbus Circle,US00009,LKUS00000009,New York City,Area 1,2026-01-17,82.0,Area food safety Check,Relax,8,-11.0,0,0,3,5,4,,,False
+Herald Square,US00002,LKUS00000002,New York City,Area 1,2026-01-16,81.0,Store food safety audit,Relax,8,-17.0,1,0,5,2,5,,,False
+Wall Street,US00004,LKUS00000004,New York City,Area 2,2026-01-18,81.0,Store food safety audit,Pickup,8,-15.0,1,0,3,4,2,,,False
+Bryant Park,US00003,LKUS00000003,New York City,Area 1,2026-01-16,78.0,Store food safety audit,Pickup,4,-4.0,0,0,0,4,2,,,False
+Midtown East,US00005,LKUS00000005,New York City,Area 2,2026-01-20,77.0,Store food safety audit,Pickup,4,-13.0,1,1,1,1,2,,,False
+Union Square,US00010,LKUS00000010,New York City,Area 2,2026-01-24,74.0,Store food safety audit,Pickup,9,-22.0,1,1,5,2,3,,,False
+JFK Terminal 1,US00008,LKUS00000054,New York City,Area 3,2026-01-20,73.0,Store food safety audit,Pickup,5,-12.0,0,1,3,1,1,,,False

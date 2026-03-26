@@ -1,0 +1,6 @@
+﻿month,category,stores_inspected,store_names,total_inspections,total_rows,checkers,checker_positions
+2026-01,Area food safety Check,4,"28th & 6th, Bryant Park, Columbus Circle, Midtown East",4,45,Daniel Chu,Operation Manager
+2026-01,Store food safety audit,7,"Bryant Park, Herald Square, JFK Terminal 1, Midtown East, Times Square, Union Square, Wall Street",7,66,Yu Jiang,Senior QA Manager
+2026-01,Store food safety self-check,9,"28th & 6th, Bryant Park, Columbus Circle, Herald Square, JFK Terminal 1, Midtown East, Times Square, Union Square, Wall Street",9,90,"David Park, Lisa Wang, Maria Chen, Sarah Kim","Assistant Store Manager, Store Manager"
+2026-02,Store food safety audit,5,"28th & 6th, Bryant Park, Herald Square, JFK Terminal 1, Wall Street",5,56,Yu Jiang,Senior QA Manager
+2026-03,Store food safety self-check,9,"28th & 6th, Bryant Park, Columbus Circle, Herald Square, JFK Terminal 1, Midtown East, Times Square, Union Square, Wall Street",9,97,"David Park, James Lee, Lisa Wang, Maria Chen, Sarah Kim","Assistant Store Manager, Store Manager"
